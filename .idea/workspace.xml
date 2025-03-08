@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0028df5c-2b86-47a3-aa4f-c0871e1faf25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/PieceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/PlayingPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/PlayingPieceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/PlayingPieceO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/PlayingPieceX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/PlayingPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/PlayingPiece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Accounts/UserAccounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Accounts/UserAccounts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Payments.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Payments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Transactions.js" afterDir="false" />
@@ -39,22 +27,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2u2NWU0epLdDytm6T3yk9uu2Hsf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Java/tic-tac-toe/src/main/java/Main.java"
   }
@@ -83,5 +77,8 @@
       <updated>1741442758528</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
