@@ -57,6 +57,4 @@ This project is designed to be **easily extensible**:
 - **New Playing Pieces**: Just create a new class extending `PlayingPiece` and update the `PlayingPieceFactory`.
 - **Different Board Sizes**: Modify `Board.java` to allow different grid sizes.
 
-## License
-This project is open-source and available for modification and distribution under the MIT License.
 
