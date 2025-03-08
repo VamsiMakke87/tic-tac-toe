@@ -14,7 +14,7 @@ This is a simple command-line Tic-Tac-Toe game implemented in Java. The game fol
 - Can be easily extended to support:
   - More players
   - Additional playing pieces
-  - Different board sizes (modifiable through `Main` class).
+  - Different board sizes.
 
 ## Class Structure
 
@@ -67,6 +67,6 @@ This project is designed to be **easily extensible**:
 
 - **More Players**: You can increase the number of players by modifying the set of available playing pieces.
 - **New Playing Pieces**: Just create a new class extending `PlayingPiece` and update the `PlayingPieceFactory`.
-- **Different Board Sizes**: Modify the `Main` class to allow different grid sizes.
+- **Different Board Sizes**: Can be configured in the `Main` class to support various grid sizes.
 
 
