@@ -1,9 +1,11 @@
 # Tic-Tac-Toe Game
 
 ## Overview
+
 This is a simple command-line Tic-Tac-Toe game implemented in Java. The game follows the **Factory Design Pattern** to create playing pieces dynamically. It allows for an extensible design where additional playing pieces and players can be added easily.
 
 ## Features
+
 - Supports up to 2 players with customizable names.
 - Implements a **Factory Design Pattern** for playing pieces.
 - Uses a **queue-based turn management** system for smooth gameplay.
@@ -12,28 +14,36 @@ This is a simple command-line Tic-Tac-Toe game implemented in Java. The game fol
 - Can be easily extended to support:
   - More players
   - Additional playing pieces
-  - Different board sizes
+  - Different board sizes (modifiable through `Main` class).
 
 ## Class Structure
+
 ### 1. **Main.java**
-   - Controls the game flow, manages player turns, and handles user input.
+
+- Controls the game flow, manages player turns, and handles user input.
 
 ### 2. **Board.java**
-   - Represents the game board and provides methods to get the board state.
+
+- Represents the game board and provides methods to get the board state.
 
 ### 3. **PieceType.java**
-   - Enum defining the different types of playing pieces (X, O).
+
+- Enum defining the different types of playing pieces (X, O).
 
 ### 4. **PlayingPiece.java**
-   - Abstract class representing a playing piece.
+
+- Abstract class representing a playing piece.
 
 ### 5. **PlayingPieceFactory.java**
-   - Implements the **Factory Pattern** to create playing pieces dynamically based on user input.
+
+- Implements the **Factory Pattern** to create playing pieces dynamically based on user input.
 
 ### 6. **PlayingPieceX.java & PlayingPieceO.java**
-   - Concrete implementations of playing pieces X and O.
+
+- Concrete implementations of playing pieces X and O.
 
 ## How to Run
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/VamsiMakke87/tic-tac-toe.git
@@ -52,9 +62,11 @@ This is a simple command-line Tic-Tac-Toe game implemented in Java. The game fol
    ```
 
 ## Extensibility
+
 This project is designed to be **easily extensible**:
+
 - **More Players**: You can increase the number of players by modifying the set of available playing pieces.
 - **New Playing Pieces**: Just create a new class extending `PlayingPiece` and update the `PlayingPieceFactory`.
-- **Different Board Sizes**: Modify `Board.java` to allow different grid sizes.
+- **Different Board Sizes**: Modify the `Main` class to allow different grid sizes.
 
 
